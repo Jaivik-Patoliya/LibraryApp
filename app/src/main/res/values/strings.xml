@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="book_info">More Info</string>
+    <string name="home_name">Library</string>
+    <string name="Preference_file_name">Home</string>
+    <string name="todo">TODO</string>
+    <string name="book1_name">Dark-Things</string>
+    <string name="author1_name">Author :- SUKANYA VENKATRAGHAVAN</string>
+    <string name="book1_about">\t\t\tCombining fantasy with the rich tapestry of folklore,Dark Things is a strange fairytale wrought of intrigue and enchantment,of shadows and secrets, of evil and those who battle it.</string>
+    <string name="book2_name">GameWorld-Trilogy</string>
+    <string name="author_2">Author :- SAMIT BASU</string>
+    <string name="book2_about">\t\t\tThree books, The Simoqin Prophecies, The Manticore’s Secret and The Unwaba Revelations, form the three parts of The GameWorld Trilogy.
+\t\t\tThe trilogy narrates the reawakening of the terrible rakshas, Danh-Gem, and the arrival of a hero to face him.</string>
+    <string name="book3_name">MURDER IN A MINUTE</string>
+    <string name="author3_name">Author :- SHOUVIK BHATTACHARYA</string>
+    <string name="book3_about">\t\t\tIn Murder in a Minute, when a young woman is found lifeless in a pool of her own blood, everyone is convinced that it is her college sweetheart who murdered her.
+\t\t\tThe victims step-brothers, Rishabh and Arya arent so convinced. They embark on a journey to unearth the truth, a journey riddled with fallacies and conspiracies, planted intentionally to trap them.</string>
+    <string name="book4_name">PATANG</string>
+    <string name="author4_name">Author :- BHASKAR CHATTOPADHYAY</string>
+    <string name="book4_about">\t\t\tIn Patang, a man is found brutally murdered, his body posed like a kite on the tallest cell tower in the city.
+
+\t\t\tAs one corpse after another turns up in the unlikeliest of places, maverick investigator Chandrakant Rathod has to pit his sharp instincts against the machinations of the sadistic, ruthless killer.
+</string>
+    <string name="book5_name">SACRED GAMES </string>
+    <string name="author5_name">Author :- VIKRAM CHANDRA</string>
+    <string name="book5_about">\t\t\t\t\t\tSacred Games draws the reader deep into the life of Inspector Sartaj Singh, and into the criminal underworld of Ganesh Gaitonde, the most wanted gangster in India.
+
+\t\t\tIt it is a story of friendship and betrayal, of terrible violence, of an astonishing modern city and its dark side.</string>
+    <string name="book6_name">SPY IN THE AMBER</string>
+    <string name="author6_name">Author :- MANOHAR MALGONKAR</string>
+    <string name="book6_about">\t\t\tSpy in the amber first published in 1971, is set during the time when tensions between India and China were at its peak.
+
+\t\t\tHidden away from the world, in the deep belly of the Himalayas lies the Ragyabas monastery which has a treasure worth millions in its possession.
+
+\t\t\tFearing Chinese invasion, the head monk decides to hand over the treasure to India for safe-keeping. But, the Chinese have different plans.</string>
+    <string name="book8_name">THE MURDER OF SONIA RAIKKONEN</string>
+    <string name="author8_name">Author :- SALIL DESAI</string>
+    <string name="book8_about">\t\t\tIn The Murder of Sonia Raikkonen, late one November night, the mutilated corpse of a young Finnish tourist is found in a public garden in Pune.
+
+\t\t\tIt looks like a case of brutal rape and murder, but Senior Inspector Saralkar and PSI Motkar find themselves probing further….delving deeper.</string>
+    <string name="book7_name">THE DEVOURERS</string>
+    <string name="author7_name">Author :- INDRA DAS</string>
+    <string name="book7_about">\t\t\tThe Devourers is set during the reign of the Mughal Empire in the seventeenth century and extends to modern India.
+
+\t\t\tIt features Shape-shifters, more specifically werewolves, and explores the concepts of love, cannibalism, and what it means to be human.
+
+\t\t\tIt is told in a multi-layered manner, alternating between different time periods and perspectives.</string>
+    <string name="SignUp_txt">Dont have account? <u>Sign up</u></string>
+    <string name="login_txt">Already have account? <u>Login</u></string>
+    <string name="menu_1">Dashbord</string>
+    <string name="menu_4">Log out</string>
+    <string name="menu_3">About App</string>
+    <string name="menu_2">profile</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Dashbord_fragment">Dashbord fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="profile_fragment">profile fragment</string>
+    <string name="about_fragment">about App fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="logout_fragment">logout fragment</string>
+</resources>

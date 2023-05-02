@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashbordFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/dark_things"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/img1"
+                android:text="@string/book1_name"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtauthor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtname1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/img1"
+                android:text="@string/author1_name"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtrs1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtauthor1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="Rs. 299"
+                android:textColor="#265828"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/gameworld_trilogy"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img2"
+                android:layout_marginTop="20dp"
+                android:text="GameWorld-Trilogy"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtauthor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="SAMIT BASU"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtname2" />
+
+            <TextView
+                android:id="@+id/txtrs2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtauthor2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/img2"
+                android:text="Rs. 299"
+                android:textColor="#265828"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/murder_in_a_minute"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img3"
+                android:layout_marginTop="20dp"
+                android:text="Murder in a minute"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtauthor3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img3"
+                android:layout_marginTop="20dp"
+                android:text="SHOUVIK BHATTACHARYA"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtname3" />
+
+            <TextView
+                android:id="@+id/txtrs3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 299"
+                android:textStyle="bold"
+                android:textColor="#265828"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:layout_toRightOf="@id/img3"
+                android:layout_below="@id/txtauthor3"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/patang"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img4"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Patang"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtauthor4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img4"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="BHASKAR CHATTOPADHYAY"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtname4" />
+
+            <TextView
+                android:id="@+id/txtrs4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 299"
+                android:textStyle="bold"
+                android:textColor="#265828"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:layout_toRightOf="@id/img4"
+                android:layout_below="@id/txtauthor4"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/sacred_games"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img5"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Sacred-Games"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtauthor5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img5"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="VIKRAM CHANDRA"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtname5" />
+
+            <TextView
+                android:id="@+id/txtrs5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 299"
+                android:textStyle="bold"
+                android:textColor="#265828"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:layout_toRightOf="@id/img5"
+                android:layout_below="@id/txtauthor5"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/spy_in_the_amber"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img6"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Spy in the amber"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtauthor6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img6"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="MANOHAR MALGONKAR"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtname6" />
+
+            <TextView
+                android:id="@+id/txtrs6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 299"
+                android:textStyle="bold"
+                android:textColor="#265828"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:layout_toRightOf="@id/img6"
+                android:layout_below="@id/txtauthor6"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/the_devourers"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img7"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="The devourers"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtauthor7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img7"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="INDRA DAS"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtname7" />
+
+            <TextView
+                android:id="@+id/txtrs7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 299"
+                android:textStyle="bold"
+                android:textColor="#265828"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:layout_toRightOf="@id/img7"
+                android:layout_below="@id/txtauthor7"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/img8"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/the_murder_of_sonia_raikkonen"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img8"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="The murder of sonia raikkonen"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtauthor8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img8"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="SALIL DESAI"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtname8" />
+
+            <TextView
+                android:id="@+id/txtrs8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 299"
+                android:textStyle="bold"
+                android:textColor="#265828"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:layout_toRightOf="@id/img8"
+                android:layout_below="@id/txtauthor8"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
